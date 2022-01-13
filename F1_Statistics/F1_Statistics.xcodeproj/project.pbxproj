@@ -13,6 +13,7 @@
 		FF3937B327903F8900E377C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3937B127903F8900E377C6 /* Main.storyboard */; };
 		FF3937B527903F8A00E377C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3937B427903F8A00E377C6 /* Assets.xcassets */; };
 		FF3937B827903F8A00E377C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3937B627903F8A00E377C6 /* LaunchScreen.storyboard */; };
+		FF3937C027904DC500E377C6 /* Driver_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3937BF27904DC500E377C6 /* Driver_Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FF3937B427903F8A00E377C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF3937B727903F8A00E377C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF3937B927903F8A00E377C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3937BF27904DC500E377C6 /* Driver_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver_Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FF3937B427903F8A00E377C6 /* Assets.xcassets */,
 				FF3937B627903F8A00E377C6 /* LaunchScreen.storyboard */,
 				FF3937B927903F8A00E377C6 /* Info.plist */,
+				FF3937BF27904DC500E377C6 /* Driver_Model.swift */,
 			);
 			path = F1_Statistics;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF3937B027903F8900E377C6 /* ViewController.swift in Sources */,
+				FF3937C027904DC500E377C6 /* Driver_Model.swift in Sources */,
 				FF3937AC27903F8900E377C6 /* AppDelegate.swift in Sources */,
 				FF3937AE27903F8900E377C6 /* SceneDelegate.swift in Sources */,
 			);
