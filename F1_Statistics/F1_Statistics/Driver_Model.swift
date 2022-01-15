@@ -9,6 +9,7 @@ import Foundation
 import CoreText
 
 class Driver_Model{
+    var driverNumber = ""
     var nameDriver = ""
     let birthDate = ""
     var nation = ""
