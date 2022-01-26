@@ -17,13 +17,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="eM8-1L-dii">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="driver" id="eM8-1L-dii">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eM8-1L-dii" id="ol5-de-sdm">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="KWf-qN-soF" kind="show" id="pF4-qk-8uJ"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -32,28 +35,26 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Formula 1 Drivers" id="N9o-Rz-9sD"/>
-                    <connections>
-                        <segue destination="7XA-jx-xOf" kind="showDetail" id="oVN-bv-O0X"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kLG-lw-4Yu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="813" y="78"/>
         </scene>
-        <!--Details-->
-        <scene sceneID="FHl-cP-vyB">
+        <!--View Controller-->
+        <scene sceneID="2in-Q1-AEP">
             <objects>
-                <viewController title="Details" id="7XA-jx-xOf" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="GrI-i5-emr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                <viewController id="KWf-qN-soF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7bR-dX-YfD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="dmY-dW-vvk"/>
+                        <viewLayoutGuide key="safeArea" id="dG9-Yf-cpp"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Xdj-lL-xsz"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ile-b5-VvM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x6u-75-Q0F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1793" y="78"/>
+            <point key="canvasLocation" x="1748" y="96"/>
         </scene>
         <!--Formula 1-->
         <scene sceneID="AW1-Od-myv">
