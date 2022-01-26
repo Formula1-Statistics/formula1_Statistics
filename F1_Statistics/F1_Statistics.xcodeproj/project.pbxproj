@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF0EA2FE27A17B000084B25C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0EA2FD27A17B000084B25C /* TableViewController.swift */; };
 		FF3937AC27903F8900E377C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3937AB27903F8900E377C6 /* AppDelegate.swift */; };
 		FF3937AE27903F8900E377C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3937AD27903F8900E377C6 /* SceneDelegate.swift */; };
 		FF3937B027903F8900E377C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3937AF27903F8900E377C6 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF0EA2FD27A17B000084B25C /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		FF3937A827903F8900E377C6 /* F1_Statistics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F1_Statistics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3937AB27903F8900E377C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF3937AD27903F8900E377C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				FF3937B627903F8A00E377C6 /* LaunchScreen.storyboard */,
 				FF3937B927903F8A00E377C6 /* Info.plist */,
 				FF3937BF27904DC500E377C6 /* Driver_Model.swift */,
+				FF0EA2FD27A17B000084B25C /* TableViewController.swift */,
 			);
 			path = F1_Statistics;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				FF3937B027903F8900E377C6 /* ViewController.swift in Sources */,
 				FF3937C027904DC500E377C6 /* Driver_Model.swift in Sources */,
 				FF3937AC27903F8900E377C6 /* AppDelegate.swift in Sources */,
+				FF0EA2FE27A17B000084B25C /* TableViewController.swift in Sources */,
 				FF3937AE27903F8900E377C6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

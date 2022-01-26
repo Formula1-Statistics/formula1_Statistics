@@ -8,13 +8,20 @@
 import Foundation
 import CoreText
 
-class Driver_Model{
-    var driverNumber = ""
+/*
+ Structure of an Entry
+ */
+class Driver{
+    var driverNumber = 0
     var nameDriver = ""
-    let birthDate = ""
+    var birthDate = ""
     var nation = ""
     var team = ""
-    var points = 0
-    
-    
+    var points = ""
+}
+/*
+ The array of entries
+ */
+class Driver_Model{
+    var drivers = [Driver]()
 }
