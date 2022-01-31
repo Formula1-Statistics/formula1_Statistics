@@ -12,12 +12,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        nameLabel.text = driver?.nameDriver
         // Do any additional setup after loading the view.
     }
-
-    @IBAction func driverBtn(_ sender: Any) {
-        performSegue(withIdentifier: "Dirvers", sender: self)
-    }
     
+    @IBOutlet weak var nameLabel: UILabel!
 }
 
