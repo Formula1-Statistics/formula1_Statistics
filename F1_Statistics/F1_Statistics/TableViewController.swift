@@ -80,7 +80,6 @@ class TableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "driver", for: indexPath)
         let driver = model.drivers[indexPath.row]
         cell.textLabel?.text = driver.nameDriver
-        print(driver.team)
         cell.detailTextLabel?.text = driver.team
         // Configure the cell...
 
@@ -89,7 +88,7 @@ class TableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         currentDriver = model.drivers[indexPath.row]
-        print("S detail")
+        print(currentDriver?.nameDriver)
         performSegue(withIdentifier: "detail", sender: self)
     }
     
@@ -134,12 +133,10 @@ class TableViewController: UITableViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        print("preapre")
-        print("-----")
-        
-
         if let viewController = segue.destination as? ViewController{
             viewController.driver = self.currentDriver
+            print(currentDriver?.nameDriver)
+            print ("prepare")
         }
     }
     

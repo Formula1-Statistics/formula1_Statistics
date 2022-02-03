@@ -12,10 +12,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("ViewController")
         nameLabel.text = driver?.nameDriver
+        
         // Do any additional setup after loading the view.
     }
-    
     @IBOutlet weak var nameLabel: UILabel!
 }
 

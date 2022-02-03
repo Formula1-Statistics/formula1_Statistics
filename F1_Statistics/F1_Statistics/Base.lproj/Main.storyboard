@@ -25,7 +25,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="KWf-qN-soF" kind="show" identifier="detail" id="pF4-qk-8uJ"/>
+                                    <segue destination="TXp-hz-LmJ" kind="showDetail" identifier="detail" id="4JU-FO-MtQ"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -38,35 +38,34 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kLG-lw-4Yu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="811.59420289855075" y="77.678571428571431"/>
+            <point key="canvasLocation" x="786" y="65"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="2in-Q1-AEP">
+        <scene sceneID="tDc-59-qpa">
             <objects>
-                <viewController id="KWf-qN-soF" customClass="ViewController" customModule="F1_Statistics" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="7bR-dX-YfD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                <viewController id="TXp-hz-LmJ" customClass="ViewController" customModule="F1_Statistics" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TZT-BA-VLP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLq-M8-ehf">
-                                <rect key="frame" x="116" y="207" width="182" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sebastian Vettel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="21b-p9-UXu">
+                                <rect key="frame" x="107" y="235" width="201" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="dG9-Yf-cpp"/>
+                        <viewLayoutGuide key="safeArea" id="rk1-39-d7o"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Xdj-lL-xsz"/>
                     <connections>
-                        <outlet property="nameLabel" destination="OLq-M8-ehf" id="klx-1A-kr5"/>
+                        <outlet property="nameLabel" destination="21b-p9-UXu" id="hxl-R3-xc7"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x6u-75-Q0F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lX2-62-Pr8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1747.826086956522" y="95.758928571428569"/>
+            <point key="canvasLocation" x="1631.8840579710147" y="64.955357142857139"/>
         </scene>
         <!--Formula 1-->
         <scene sceneID="AW1-Od-myv">
